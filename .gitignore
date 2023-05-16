@@ -1,0 +1,37 @@
+# Visual Studio generated files
+.vs/
+
+# Build output
+/bin/
+/obj/
+
+# Local configuration file
+/appsettings.Development.json
+
+# User-specific files
+*.user
+
+# NuGet packages
+/packages/
+*.nupkg
+*.snupkg
+
+# Ignore Visual Studio Code files
+.vscode/
+
+# Logs
+*.log
+
+# .NET Core artifacts
+*.dll
+*.pdb
+*.exe
+
+# Test Results
+TestResults/
+
+# Mac-specific files
+.DS_Store
+
+# Build and publish outputs
+/wwwroot/

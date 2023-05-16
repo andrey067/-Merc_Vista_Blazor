@@ -1,0 +1,1 @@
+D:\Projetos\Mauro Projeto\Merc_Vista\src\Merc_Vista_Blazor\bin\Debug\net6.0\publish\web.config
