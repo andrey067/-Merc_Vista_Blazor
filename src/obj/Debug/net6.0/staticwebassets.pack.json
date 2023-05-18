@@ -5,27 +5,27 @@
       "PackagePath": "staticwebassets\\ChartJsBlazorInterop.js"
     },
     {
-      "Id": "D:\\Projetos\\Mauro Projeto\\Merc_Vista\\src\\Merc_Vista_Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "Id": "D:\\Projetos\\Mauro Projeto\\Merc_Vista\\Merc_Vista_Blazor\\src\\bin\\Debug\\net6.0\\wwwroot\\_framework\\blazor.webassembly.js",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
     },
     {
-      "Id": "D:\\Projetos\\Mauro Projeto\\Merc_Vista\\src\\Merc_Vista_Blazor\\obj\\Debug\\net6.0\\build-gz\\1Ay+a8vd.gz",
+      "Id": "D:\\Projetos\\Mauro Projeto\\Merc_Vista\\Merc_Vista_Blazor\\src\\obj\\Debug\\net6.0\\build-gz\\1Ay+a8vd.gz",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
     },
     {
-      "Id": "D:\\Projetos\\Mauro Projeto\\Merc_Vista\\src\\Merc_Vista_Blazor\\wwwroot\\appsettings.json",
+      "Id": "D:\\Projetos\\Mauro Projeto\\Merc_Vista\\Merc_Vista_Blazor\\src\\wwwroot\\appsettings.json",
       "PackagePath": "staticwebassets\\appsettings.json"
     },
     {
-      "Id": "D:\\Projetos\\Mauro Projeto\\Merc_Vista\\src\\Merc_Vista_Blazor\\wwwroot\\favicon.ico",
+      "Id": "D:\\Projetos\\Mauro Projeto\\Merc_Vista\\Merc_Vista_Blazor\\src\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\Projetos\\Mauro Projeto\\Merc_Vista\\src\\Merc_Vista_Blazor\\wwwroot\\index.html",
+      "Id": "D:\\Projetos\\Mauro Projeto\\Merc_Vista\\Merc_Vista_Blazor\\src\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "D:\\Projetos\\Mauro Projeto\\Merc_Vista\\src\\Merc_Vista_Blazor\\wwwroot\\sample-data\\weather.json",
+      "Id": "D:\\Projetos\\Mauro Projeto\\Merc_Vista\\Merc_Vista_Blazor\\src\\wwwroot\\sample-data\\weather.json",
       "PackagePath": "staticwebassets\\sample-data\\weather.json"
     },
     {
