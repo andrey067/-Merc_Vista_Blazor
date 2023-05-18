@@ -26,7 +26,7 @@
 
         var resultRequest = await ServiceCaller.CallAsync<HttpClient, HttpResponseMessage>(async httpClient =>
                             {
-                                var queryString = $"?ativosSelecionados={string.Join(",", ativos.Select(a => a))}&dataInicial={dateRangeSelecionado!.Start}&dataFinal={dateRangeSelecionado.End}&totalItensAmostrar={filtroQuantidadeDatas}";
+                                var queryString = $"?ativosSelecionados={string.Join(",", ativos.Select(a => a))}&dataInicial={DateTime.Parse(dateRangeSelecionado!.Start.ToString()).ToString("dd/MM/yyyy")}&dataFinal={DateTime.Parse(dateRangeSelecionado!.End.ToString()).ToString("dd/MM/yyyy")}&totalItensAmostrar={filtroQuantidadeDatas}";
                                 return await httpClient.GetAsync($"ativos/calular-forca-relativa{queryString}");
                             });
 
