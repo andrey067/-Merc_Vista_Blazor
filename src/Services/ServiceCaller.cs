@@ -1,11 +1,12 @@
 ﻿namespace Merc_Vista_Blazor.Services
 {
-    public class ServiceCaller : IServiceCaller
+    public class ServiceCaller: IServiceCaller
     {
         public event Action<bool> OnLoadingStateChanged;
         private bool isLoading = false;
 
         private readonly IServiceProvider _services;
+        private readonly IErrorHandlingService _errorHandlingService;
 
         public bool IsLoading
         {
@@ -17,7 +18,12 @@
             }
         }
 
-        public ServiceCaller(IServiceProvider services) => _services = services;
+        public ServiceCaller(IServiceProvider services, IErrorHandlingService errorHandlingService)
+        {
+
+            _services = services;
+            _errorHandlingService = errorHandlingService;
+        }
 
         public async Task<TResult> CallAsync<TService, TResult>(Func<TService, Task<TResult>> method) where TService : class
         {
@@ -28,6 +34,11 @@
                 ShowLoading();
                 TResult serviceCallResult = await method(service);
                 return serviceCallResult;
+            }
+            catch (HttpRequestException e)
+            {
+                _errorHandlingService.HandleRequestError(e);
+                return default;
             }
             finally
             {
